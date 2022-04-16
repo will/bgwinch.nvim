@@ -18,7 +18,18 @@ use {
 ## Usage
 
 Outside of calling the `setup` function to create the autocommand, there is nothing else you have to do.
+
+
 You can call the functions `disable_and_toggle_bg` to stop automatically changing and `reenable` to start again.
+These can be used for example in whichkey:
+
+```lua
+local bgwinch = require "bgwinch"
+local mappings = {
+  b = { bgwinch.disable_and_toggle_bg, "Toggle background" },
+  B = { bgwinch.reenable, "Auto background" },
+}
+```
 
 ### Other platforms
 
