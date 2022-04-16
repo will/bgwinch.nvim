@@ -4,6 +4,8 @@ iTerm 3.5 sends the SIGWINCH signal when macOS changes appearance from light or 
 Neovim 0.7 added the ability to run an autcommand on SIGWINCH.
 This plugin combines those two features to automatically toggle vim's light and dark mode in sync with the overall system.
 
+![bgwinch](https://user-images.githubusercontent.com/1973/163689626-a1d037f3-dfc4-4aea-b6f6-085bdc8f0c89.gif)
+
 It depends on [plenary.nvim](https://github.com/nvim-lua/plenary.nvim).
 
 ## Packer
