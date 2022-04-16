@@ -53,6 +53,8 @@ M.reenable = function()
 end
 
 M.setup = function(params)
+  params = params or {}
+
   if params.set_bg then
     M.set_bg = params.set_bg
   end
