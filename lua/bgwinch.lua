@@ -36,6 +36,7 @@ M.disable = function()
     return
   end
   vim.api.nvim_del_augroup_by_id(group)
+  group = nil
 end
 
 M.toggle_bg = function()
