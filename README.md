@@ -36,4 +36,5 @@ local mappings = {
 ### Other platforms
 
 If any terminal emulators non-mac platforms also send SIGWINCH on appearance change, you can give a custom `set_bg` function in `setup({set_bg = function()...end})`.
-PRs welcome to add support for these other platforms.
+
+The wiki has some guides to other platforms such as Gnome. PRs welcome to add support for these other platforms as needed.
